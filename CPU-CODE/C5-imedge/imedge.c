@@ -14,7 +14,7 @@
 #define EDGE		 0
 #define NOEDGE       255
 
-long  			NumThreads;         		// Total number of threads working in parallel
+// long  			NumThreads;         		// Total number of threads working in parallel
 int 	     	ThParam[MAXTHREADS];		// Thread parameters ...
 int				ThreshLo,ThreshHi;			// "Edge" vs. "No Edge" thresholds
 pthread_t      	ThHandle[MAXTHREADS];		// Thread handles

@@ -13,7 +13,7 @@
 #define PI			 3.1415926
 #define ONEOVER159   0.00628931
 
-long  			NumThreads;         		// Total number of threads working in parallel
+// long  			NumThreads;         		// Total number of threads working in parallel
 int 	     	ThParam[MAXTHREADS];		// Thread parameters ...
 int				ThreshLo,ThreshHi;			// "Edge" vs. "No Edge" thresholds
 pthread_t      	ThHandle[MAXTHREADS];		// Thread handles

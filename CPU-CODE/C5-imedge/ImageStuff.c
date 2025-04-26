@@ -7,6 +7,9 @@
 
 #include "ImageStuff.h"
 
+long NumThreads = 0;
+long PrThreads = 0;
+
 
 double** CreateBlankDouble()
 {
