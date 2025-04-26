@@ -7,7 +7,8 @@
 
 #include "ImageStuff.h"
 
-#define REPS 	     1
+// #define REPS 	     1
+#define REPS 	     129
 #define MAXTHREADS   128
 
 long  			NumThreads;         		// Total number of threads working in parallel
